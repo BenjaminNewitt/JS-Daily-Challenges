@@ -8,3 +8,8 @@ function timeForMilkAndCookies(date) {
   }
   return false;
 }
+
+//  March 20, 2020
+function findPerimeter(height, width) {
+  return height * 2 + width * 2;
+}
