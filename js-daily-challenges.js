@@ -13,3 +13,22 @@ function timeForMilkAndCookies(date) {
 function findPerimeter(height, width) {
   return height * 2 + width * 2;
 }
+
+// March 24, 2020
+function calculator(num1, operator, num2) {
+  switch (operator) {
+    case "+":
+      return num1 + num2;
+    case "-":
+      return num1 - num2;
+    case "*":
+      return num1 * num2;
+    case "/":
+      if (num1 == 0 || num2 == 0) {
+        return "Can't divide by 0!";
+      }
+      return num1 / num2;
+    default:
+      break;
+  }
+}
